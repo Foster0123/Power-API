@@ -15,7 +15,7 @@ public class CannonApplication {
 	}
 	@GetMapping("/")
 	public String index() {
-		return "Hello From Spring-Boot-App-Java";
+		return "Hello From Spring-Boot-App-Java Index Page";
 	}
 	@GetMapping("/about")
 	public String about(@RequestParam(value= "name", defaultValue = "foss") String name){
