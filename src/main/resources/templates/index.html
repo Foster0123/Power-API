@@ -1,12 +1,20 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
-<head> 
+
+<head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Cannon Application</title> 
+    <title>Spring Boot Java API</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="@{/public/apple-touch-icon.png}">
+    <link rel="icon" type="image/png" sizes="32x32" href="@{/public/favicon-32x32.png}">
+    <link rel="icon" type="image/png" sizes="16x16" href="@{/public/favicon-16x16.png}">
+    <link rel="manifest" href="@{/public/site.webmanifest}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
+        integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
     <link th:href="@{/css/main.css}" rel="stylesheet" />
 </head>
+
 <body>
     <h1 th:text="'Hello, ' + ${name} + '!'" />
-
 </body>
+
 </html>
