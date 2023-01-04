@@ -1,10 +1,10 @@
-package com.gauss;
+package com.gauss.api;
 
-public class Greeting {
+public class Api {
     private final long id;
     private final String content;
 
-    public Greeting(long id, String content){
+    public Api(long id, String content){
         this.id = id;
         this.content = content;
     }
