@@ -1,0 +1,16 @@
+{
+  "name": "power-api",
+  "version": "1.0.0",
+  "description": "API Application Built Using Java & Spring Boot Framework",
+  "main": "index.js",
+  "scripts": {
+    "start": "./mvnw spring-boot:run",
+    "static": "sass --watch ./src/main/resources/static/scss/main.scss ./src/main/resources/static/css/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.58.3"
+  }
+}

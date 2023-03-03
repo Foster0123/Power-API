@@ -4,10 +4,10 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Spring Boot Java API</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="@{/public/apple-touch-icon.png}">
-    <link rel="icon" type="image/png" sizes="32x32" href="@{/public/favicon-32x32.png}">
-    <link rel="icon" type="image/png" sizes="16x16" href="@{/public/favicon-16x16.png}">
-    <link rel="manifest" href="@{/public/site.webmanifest}">
+    <link rel="apple-touch-icon" sizes="180x180" th:href="@{/apple-touch-icon.png}">
+    <link rel="icon" type="image/png" sizes="32x32" th:href="@{/favicon-32x32.png}">
+    <link rel="icon" type="image/png" sizes="16x16" th:href="@{/favicon-16x16.png}">
+    <link rel="manifest" th:href="@{/site.webmanifest}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
         integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls" crossorigin="anonymous">
     <link th:href="@{/css/main.css}" rel="stylesheet" />
@@ -15,6 +15,7 @@
 
 <body>
     <h1 th:text="'Hello, ' + ${name} + '!'" />
+    <h1>MY Power API In Java</h1>
 </body>
 
 </html>
